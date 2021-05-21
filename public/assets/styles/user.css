@@ -1,0 +1,184 @@
+.frm-title {
+    font-size: 20px !important;
+}
+
+.lg-user {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.lg-btn {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.lg-logo {
+    font-size: 34px !important;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+#register_success {
+    display: none;
+}
+
+#register_danger {
+    display: none;
+}
+
+#register_warning {
+    display: none;
+}
+
+#login_warning {
+    display: none;
+}
+
+#login_success {
+    display: none;
+}
+
+#login_danger {
+    display: none;
+}
+
+.sorting_asc {
+    text-align: center;
+}
+
+.sorting {
+    text-align: center;
+}
+
+.odd td {
+    text-align: center;
+    color: white
+}
+
+.even td {
+    text-align: center;
+    color: white
+}
+
+.domain-add {
+    display: flex;
+    justify-content: flex-end;
+    height: 167px;
+    align-items: flex-end;
+}
+
+.modal-content {
+    background-color: #484646
+}
+
+.modal-title {
+    color: white
+}
+
+.add-domainname {
+    color: white;
+    font-weight: 100 !important
+}
+
+.add-domainname b {
+    font-weight: 100 !important
+}
+
+.form-control {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.domain-alert {
+    display: flex;
+    justify-content: center;
+}
+
+.mb-5 {
+    margin-bottom: 25px;
+}
+
+#get_domainlist_success {
+    display: none;
+}
+
+#eachdnsgetdefault_success {
+    display: none;
+    margin-top: 5px
+}
+
+#eachdnsgetdefault_error {
+    display: none;
+    margin-top: 5px;
+}
+
+.dns-btn {
+    margin-right: 5px;
+}
+
+.modal-body p {
+    color: white;
+    font-size: 14px;
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.each-domain-list {
+    border-bottom: solid 1px white;
+    margin-bottom: 5px;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: none
+}
+
+#dns_domainlist_success {
+    display: none;
+}
+
+#dns_domainlist_warning {
+    display: none;
+}
+
+#domainname_error {
+    display: none;
+}
+
+#add_domainlist_success {
+    display: none;
+}
+
+#add_domainlist_false {
+    display: none;
+}
+
+#remove_domain_success {
+    display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .domain-add {
+        display: initial;
+    }
+    .sorting_asc {
+        display: none;
+    }
+    .sorting_1 {
+        display: none;
+    }
+    .sorting {
+        display: none;
+    }
+}
